@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to bottom left, #33ccff 0%, #cc66ff 100%);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+h1 {
+    color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s; 
+  
+h1 {
+    color: white;
+    text-align: center;
+}
+  
+ h2 {
+    font-size: 20px;
+} 
+  
